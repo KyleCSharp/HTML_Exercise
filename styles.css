@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color:gray;
+}
+#exercise3 img {
+    border-radius: 50%;
+    max-width: auto;
+    max-height: 200px;
+}
+
+ul {
+    list-style: none; 
+    padding: 0; /
+}
+
+li {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center-align items horizontally */
+    margin-bottom: 20px; /* Add some space between list items */
+}
+
+li::before {
+    content: "\2022"; /* Unicode character for a bullet point */
+    font-size: 20px; /* Adjust the size of the bullet point */
+    margin-right: 10px; /* Add space between the bullet point and text */
+}
+footer{
+    color: white;
+    background-color: black;
+}
